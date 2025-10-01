@@ -13,6 +13,6 @@ def binary_search(arr, item):
             low = mid + 1
     return None
 
-my_list = [1, 3, 5, 7, 9]
+my_list = [1, 3, 5, 7, 9, 6, 123, 124]
 
-print(binary_search(my_list, 3))
+print(binary_search(my_list, 124))
