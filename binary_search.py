@@ -1,7 +1,10 @@
 def binary_search(arr, item):
-    low = 0
-    high = len(arr)-1
-
+    if not arr:
+        return None
+    
+    low = 0 
+    high = len(arr)-1 # para consultar o indice válido não a quantidade de elementos.
+    
     while low <= high:
         mid = (low + high) // 2
         guess = arr[mid]
@@ -13,6 +16,9 @@ def binary_search(arr, item):
             low = mid + 1
     return None
 
-my_list = [1, 3, 5, 7, 9, 6, 123, 124]
 
-print(binary_search(my_list, 124))
+my_list = list(range(1000))
+
+print(binary_search(my_list, 300)) # 300
+print(binary_search(my_list, -1)) # None
+print(binary_search(my_list, 1001)) # None

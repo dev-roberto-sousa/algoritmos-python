@@ -36,5 +36,3 @@ Imagina que os logaritmos são como **detetives de multiplicação** 🔍
 | 1.024 números | 1.024 verificações | 10 verificações |
 | 1 milhão | 1.000.000 verificações | 20 verificações |
 
-**É como encontrar uma agulha num palheiro dividindo o palheiro pela metade várias vezes!**
-
